@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+/* #navbar {
+
+	background-color: teal;
+	color:white;
+	font-family: Helvetica, sans-serif;
+	height:40px;
+} */
+input[type=submit] {
+	background-color: teal;
+	/* background-color:navy; */ color : white;
+	/*   margin-top: 8px; */
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	color: white;
+	/*   float: right; */
+	height: 20px;
+	width: 70px;
+}
+
+/* ------------------- TABLE STYLE ------------------*/
+td {
+	font-size: 16px;
+}
+
+#tablestyle {
+	border-collapse: collapse;
+	width: 70%;
+}
+
+#tablestyle td, #tablestyle th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	font-size: 12px
+}
+
+tablestyle tr:nth-child(even){background-color: #94ffe6;}
+
+/*  #tablestyle tr:nth-child(even){background-color: #6FA2FD;} */ */
+
+tablestyle tr:hover {
+	background-color: #ddd;
+}
+
+#tablestyle th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	/*   background-color:#5D5A5E;
+   */
+	background-color: teal;
+	color: white;
+}
+
+/* input[type=submit].table {
+	background-color: navy;
+	color: white;
+	padding: 5px;
+	width: 150px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+} */
+
+.button {
+	height: 30px;
+	padding: 0px;
+	line-height: 1px;
+}

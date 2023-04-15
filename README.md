@@ -32,9 +32,3 @@ This project will have 3 types of users:
   - Change the status of reservation of customer
   - View customer details and their reservations
   - Add/edit/delete books
-
-## Instructions to run the project
-1. Download the zip and extract it to your favourite location.
-2. Open the project folder in SpringToolSuite4.
-3. Go to the hibernate.cfg.xml and set the DBName, username and password of your MYSQL Server.
-4. Run the project
